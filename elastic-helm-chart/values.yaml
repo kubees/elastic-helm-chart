@@ -13,7 +13,7 @@ elasticsearch:
   # Request smaller persistent volumes.
   volumeClaimTemplate:
     accessModes: [ "ReadWriteOnce" ]
-    storageClassName: "standard"
+    storageClassName: "elastic-sc"
     resources:
       requests:
         storage: 10Gi
